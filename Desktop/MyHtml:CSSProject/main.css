@@ -1,0 +1,46 @@
+html, head, body, a, h1, h2
+{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height:100%;
+    background: #222222 url("images/Alto-Campoo-Ski-Lift-Milky-Way-e1502733284583.jpeg") center no-repeat ;
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 25px 0 10px 0;
+    margin: 50px 0 5px 0;
+    font-family: 'Times New Roman', Arial, serif;
+    font-weight: bold;
+    color: #EEEEEE;
+
+}
+h2{
+    text-align: center;
+    font-family: Arial, sans-serif, serif;
+    font-size: 16px;
+    color: #EEEEEE;
+}
+.nav{
+    text-align: center;
+    padding: 10px 0 10px 0px;
+    border: 1px solid #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    color: #FFFFFF;
+    
+}
+a {
+    padding-right: 20px;
+}
+a:last-of-type{
+    padding-right: 0;
+}
