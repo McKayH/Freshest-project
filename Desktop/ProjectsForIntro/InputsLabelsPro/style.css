@@ -1,0 +1,52 @@
+html,head,body,h1,label,input{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    text-align: center;
+    margin: 350px;
+    font-family: 'Times New Roman', Helvetica,sans-serif;
+}
+.contentBox{
+    border: 1px solid #000000;
+    width: 300px;
+    margin: auto;
+}
+h1 {
+    margin: 45px 0 25px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+form{
+    display: block;
+}
+#first {
+    display: block;
+    margin-bottom: 15px;
+}
+#last {
+    display: block;
+    margin-bottom: 15px;
+}
+#mail {
+    display: block;
+    margin-bottom: 22px;
+}
+form:last-child{
+    margin-bottom: 50px;
+}
+input {
+    border: 1px solid #444444;
+}
+#enter{
+    text-align: center;
+    margin:auto;
+    padding: 0 100px;
+    font-style: italic;
+    
+}
+label{
+    font-weight: bold;
+}
+
