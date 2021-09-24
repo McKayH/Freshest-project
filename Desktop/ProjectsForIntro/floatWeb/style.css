@@ -51,9 +51,12 @@ input {
     padding: 0 22px;
 }
 .wrapper{
-    margin: 0 auto;
-    padding-top: 20%;
-    
+   display:flex;
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
 }
 .colum {
     display: inline-block;
@@ -62,29 +65,6 @@ input {
     border: 1px solid #EEBB00;
     font-size: 8px;
     margin-left: 15px;
-    float: none;
-}
-.container:first-child{
-    padding-left: 12%;
     
 }
 
-#dash {
-    float:left;
-
-}
-#budget{
-    float:left;
-}
-#checkbooks{
-    float: left;
-}
-#money{
-    float:left;
-}
-#dash input{
-    margin-top: 60px;
-}
-#money input{
-    margin-top: 115px;
-}
