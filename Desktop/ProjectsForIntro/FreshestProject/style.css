@@ -1,0 +1,97 @@
+html,body, header, a, h3, h2, h1, img, p {
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Bonheur Royale', cursive;
+}
+a{
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration-line:underline;
+}
+#first {
+    height: 100%;
+    width: auto;
+    background-image:url("HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg");
+
+}
+#Headbar {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    height: 25px;
+    width:90%;
+    padding: 12px;
+    border-bottom: 1px solid #FFFFFF ;
+    margin: 0 auto;
+}
+#main{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+#main h1{
+    border-bottom: 1px solid #FFFFFF;
+    padding:0 45px;
+    margin-bottom: 15px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#picture1 {
+    width: auto;
+    height: fit-content;
+    display: flex;
+}
+#picture2 {
+    width: auto;
+    height: fit-content;
+    background-color: #111111;
+    display: flex;
+    flex-direction: row-reverse ;
+}
+#picture3 {
+    width: auto;
+    height: fit-content;
+    background-color: #222222;
+    display: flex;
+}
+#picture1 img{
+    width: 400px;
+    height: 300px;
+}
+#picture2 img{
+    width: 550px;
+    height: 500px;
+
+}
+#picture3 img{
+    width: 400px;
+    height: 300px;
+
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5%;
+
+}
+
